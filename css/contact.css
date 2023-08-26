@@ -1,0 +1,85 @@
+ .contact-form{
+      max-width: 400px;
+      height: 400px;
+      position: relative;
+      top: 0;
+      background-color: rgb(41, 39, 39);
+      box-shadow: 0px 0px 3px black;
+      box-sizing: border-box;
+      padding: 1rem;
+  }
+  .contact-form > h2{
+      color: #fff;
+      text-align: center;
+      padding-bottom: 0.2rem;
+  }
+
+ #contact{
+      width: 100%;
+      position: relative;
+      top: 0;
+      right: 0;
+      display: flex;
+      background-color: rgba(48, 46, 46, 0.898);
+      gap: 1rem;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding-top: 5%;
+      padding-bottom: 5%;
+      /* border-bottom: 1px solid silver; */
+  }
+
+  input{
+      width: 100%;
+      padding: 0.7rem;
+      margin-top: 3%;
+      margin-bottom: 3%;
+      font-size: 0.8rem;
+      outline: none;
+  }
+  textarea{
+      width: 100%;
+      outline: none;
+      border: 1px solid white;
+  }
+  .form-btn{
+      width: 100%;
+      outline: none;
+      padding: 0.9rem;
+      margin-top: 3%;
+      font-size: 1.1rem;
+      background-color: orange;
+      border: 1px solid black;
+      cursor: pointer;
+  }
+  .form-btn:hover{
+      background-color: rgb(230, 116, 54);
+      color: #000;
+  }
+.contactbtn{
+      width: 30%;
+      padding: 0.5rem;
+   background-color: rgb(36, 35, 35);
+   color: rgb(241, 237, 237);
+      margin-left: 3%;
+      outline: none;
+      /* border: 1px solid black; */
+      border: none;
+      font-size: 1rem;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.7);
+      cursor: pointer;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .contactbtn{
+      text-decoration: none;
+      color: #b5b5b5;
+  }
+  .contactbtn:hover{
+      background-color: black;
+  }
+  /* .about h2{
+      font-size: 2em;
+      padding-top: 20px;
+      padding-bottom: 10px;
+  } */
